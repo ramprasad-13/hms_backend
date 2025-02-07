@@ -16,7 +16,7 @@ app.use(cors({
 require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 
-// Database connection
+// Database connection ;
 const DB = require('./connection');
 DB();
 
